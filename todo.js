@@ -30,7 +30,7 @@ const todoList = () => {
     return l
       .map((todo) => {
         x = todo.completed ? "[x]" : "[ ]";
-        y = todo.dueDate == today ? "" : todo.dueDate;
+        y = todo.dueDate == today_date ? "" : todo.dueDate;
 
         return `${x} ${todo.title} ${y}`;
       })
