@@ -1,9 +1,8 @@
+/* eslint-disable no-undef */
 const todoList = require("../todo");
 const { all, markAsComplete, add, overdue, dueToday, dueLater } = todoList();
 
 describe("Checking my todolist", () => {
-  
-
   test("checks creating a new todo", () => {
     //expect(all.length).toBe(0);
 
